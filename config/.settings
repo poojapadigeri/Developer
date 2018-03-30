@@ -1,0 +1,22 @@
+{
+    "projectName": "Developer",
+    "username": "pooja.dev@cloudlendinginc.com",
+    "id": "69267990-2692-11e8-95ff-f9f5d553f1d0",
+    "namespace": "",
+    "environment": "developer",
+    "loginUrl": "",
+    "workspace": "C:\\Users\\Pooja Bhat\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "CustomLabels",
+        "CustomObject",
+        "Dashboard",
+        "Report",
+        "ReportType",
+        "StaticResource",
+        "Workflow"
+    ]
+}

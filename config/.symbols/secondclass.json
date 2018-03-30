@@ -1,0 +1,43 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "secondclass",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "secondclass",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "secondclass",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "secondclass",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "secondclass",
+        "references": [],
+        "type": "secondclass"
+    },
+    "variables": []
+}

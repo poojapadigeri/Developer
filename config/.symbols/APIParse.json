@@ -1,0 +1,156 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "APIParse",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "Session",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "Session",
+            "methods": [],
+            "name": "Session",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 7
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "cobSession",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 6
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Session",
+                "references": [],
+                "type": "Session"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "APIParse",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 9
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "parse",
+            "parameters": [
+                {
+                    "name": "json",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "APIParse",
+            "type": null
+        }
+    ],
+    "name": "APIParse",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "applicationId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "cobrandId",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "locale",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "session",
+            "references": [],
+            "type": "Session"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "APIParse",
+        "references": [],
+        "type": "APIParse"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "json",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

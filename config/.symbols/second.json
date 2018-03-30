@@ -1,0 +1,326 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "second",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "Evt",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "Evt",
+            "methods": [],
+            "name": "Evt",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "static",
+                        "public",
+                        "final"
+                    ],
+                    "name": "afterdelete",
+                    "references": [],
+                    "type": "Evt"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "static",
+                        "public",
+                        "final"
+                    ],
+                    "name": "afterinsert",
+                    "references": [],
+                    "type": "Evt"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "static",
+                        "public",
+                        "final"
+                    ],
+                    "name": "afterundelete",
+                    "references": [],
+                    "type": "Evt"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 9
+                    },
+                    "modifiers": [
+                        "static",
+                        "public",
+                        "final"
+                    ],
+                    "name": "afterupdate",
+                    "references": [],
+                    "type": "Evt"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 9
+                    },
+                    "modifiers": [
+                        "static",
+                        "public",
+                        "final"
+                    ],
+                    "name": "beforedelete",
+                    "references": [],
+                    "type": "Evt"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 36,
+                        "line": 9
+                    },
+                    "modifiers": [
+                        "static",
+                        "public",
+                        "final"
+                    ],
+                    "name": "beforeinsert",
+                    "references": [],
+                    "type": "Evt"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 50,
+                        "line": 9
+                    },
+                    "modifiers": [
+                        "static",
+                        "public",
+                        "final"
+                    ],
+                    "name": "beforeupdate",
+                    "references": [],
+                    "type": "Evt"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 17,
+                    "line": 6
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Evt",
+                "references": [],
+                "type": "Evt"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "HandlerInterface",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "HandlerInterface",
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 14,
+                        "line": 18
+                    },
+                    "modifiers": [
+                        "public",
+                        "abstract"
+                    ],
+                    "name": "handle",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "HandlerInterface",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 22,
+                    "line": 16
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "HandlerInterface",
+                "references": [],
+                "type": "HandlerInterface"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "second",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 27
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "bind",
+            "parameters": [
+                {
+                    "name": "event",
+                    "type": "Evt"
+                },
+                {
+                    "name": "eh",
+                    "type": "HandlerInterface"
+                }
+            ],
+            "references": [],
+            "returnType": "second",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "manage",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "second",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 22
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "eventHandlerMapping",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "second",
+        "references": [],
+        "type": "second"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "event",
+            "references": [],
+            "type": "second.Evt"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "eh",
+            "references": [],
+            "type": "second.HandlerInterface"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "handlers",
+            "references": [],
+            "type": "List<second.HandlerInterface>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "ev",
+            "references": [],
+            "type": "second.Evt"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "handlers",
+            "references": [],
+            "type": "List<second.HandlerInterface>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "h",
+            "references": [],
+            "type": "second.HandlerInterface"
+        }
+    ]
+}

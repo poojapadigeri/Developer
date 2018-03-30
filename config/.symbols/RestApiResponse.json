@@ -1,0 +1,100 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "RestApiResponse",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "RestApiResponse",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 2
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getcallout",
+            "parameters": [],
+            "references": [],
+            "returnType": "System.HttpResponse",
+            "type": null
+        }
+    ],
+    "name": "RestApiResponse",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RestApiResponse",
+        "references": [],
+        "type": "RestApiResponse"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "http",
+            "references": [],
+            "type": "System.Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "System.HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "System.HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "Map<String,Object>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "APIParse"
+        }
+    ]
+}
